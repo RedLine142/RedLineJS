@@ -104,7 +104,7 @@ const RedLine = {
         return this;
     },
 
-    // Эффект наведения (изменение цвета) - НОВАЯ ФУНКЦИЯ ДЛЯ ВАС!
+    // Эффект наведения (изменение цвета)
     hoverColor(id, colorOn, colorOff) {
         const element = this.get(id);
         if (!element) return this;
